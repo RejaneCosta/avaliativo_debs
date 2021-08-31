@@ -942,6 +942,7 @@
 											"model": {
 												"$ref": "AAAAAAF7idlPOzeyI00="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 597,
 											"top": 357,
@@ -955,7 +956,7 @@
 									"left": 592,
 									"top": 337,
 									"width": 161,
-									"height": 38
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -978,7 +979,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 597,
-											"top": 380,
+											"top": 365,
 											"width": 151,
 											"height": 13,
 											"text": "+BuscarGenero()",
@@ -995,7 +996,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 597,
-											"top": 395,
+											"top": 380,
 											"width": 151,
 											"height": 13,
 											"text": "+PrincipaisArtistas()",
@@ -1004,7 +1005,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 592,
-									"top": 375,
+									"top": 360,
 									"width": 161,
 									"height": 38
 								},
@@ -3363,7 +3364,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7f7K7u+atnTA="
 							},
-							"name": "Genero"
+							"name": "Genero",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3593,7 +3595,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7f7fOY+cQ5Mw="
 							},
-							"name": "Artista"
+							"name": "Artista",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3601,7 +3604,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7f7fOY+cQ5Mw="
 							},
-							"name": "Genero"
+							"name": "Genero",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3609,7 +3613,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7f7fOY+cQ5Mw="
 							},
-							"name": "Discos"
+							"name": "Discos",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3617,7 +3622,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF7f7fOY+cQ5Mw="
 							},
-							"name": "Listar"
+							"name": "Listar",
+							"type": ""
 						}
 					],
 					"operations": [
